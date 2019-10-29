@@ -39,7 +39,6 @@ try:
 
 		for i in msg:
 			blink = morse[i]
-			print(blink)
 
 			for z in blink:
 				if z == '.':
@@ -49,7 +48,7 @@ try:
 				else:
 					space()
 
-		time.sleep(1.5)
+			time.sleep(1.5)
 
 except KeyboardInterrupt:
 	print('cleanup!')
